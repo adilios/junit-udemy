@@ -6,7 +6,6 @@ public class StringHelperTest {
 
     StringHelper helper = new StringHelper();
 
-    @Test
     public void truncateAInFirst2Positions_oneA() {
         assertEquals("BC", helper.truncateAInFirst2Positions("ABC"));
     }
